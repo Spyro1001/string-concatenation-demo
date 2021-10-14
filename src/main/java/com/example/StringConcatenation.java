@@ -11,7 +11,8 @@ import java.util.Scanner;
  * TEST_COUNT determines how many times the full set of tests is run.  Each TEST_COUNT iteration, the test
  * strings are doubled in size.
  */
-public class StringConcatenation {
+public class
+StringConcatenation {
 
     public static void main(String[] args) {
 
@@ -21,7 +22,7 @@ public class StringConcatenation {
         String targetString = "";
 
         // loop counter for each test
-        final int LOOP_COUNT = 200000;
+        final int LOOP_COUNT = 500000;
 
         // determines how many times the suite of tests is run
         final int TEST_COUNT = 2;
